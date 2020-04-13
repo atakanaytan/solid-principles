@@ -1,8 +1,8 @@
-package LiskovPrinciple.Good;
+package liskovPrinciple.Good;
 
-import LiskovPrinciple.Good.board.Board;
-import LiskovPrinciple.Good.board.impl.ThreeDBoard;
-import LiskovPrinciple.Good.board.impl.TwoDBoard;
+import liskovPrinciple.Good.board.Board;
+import liskovPrinciple.Good.board.impl.ThreeDBoard;
+import liskovPrinciple.Good.board.impl.TwoDBoard;
 
 public class Main {
 

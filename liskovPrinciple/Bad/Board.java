@@ -1,4 +1,4 @@
-package LiskovPrinciple.Bad;
+package liskovPrinciple.Bad;
 
 public interface Board {
 

@@ -1,4 +1,4 @@
-package LiskovPrinciple.Good;
+package liskovPrinciple.Good;
 
 import java.util.HashMap;
 import java.util.Map;

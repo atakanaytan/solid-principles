@@ -1,4 +1,4 @@
-package LiskovPrinciple.Bad;
+package liskovPrinciple.Bad;
 
 import java.util.HashSet;
 import java.util.Set;
