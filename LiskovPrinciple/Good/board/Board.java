@@ -1,4 +1,6 @@
-package LiskovPrinciple.Good;
+package LiskovPrinciple.Good.board;
+
+import LiskovPrinciple.Good.Movement;
 
 import java.util.Set;
 

@@ -1,5 +1,9 @@
 package LiskovPrinciple.Good;
 
+import LiskovPrinciple.Good.board.Board;
+import LiskovPrinciple.Good.board.impl.ThreeDBoard;
+import LiskovPrinciple.Good.board.impl.TwoDBoard;
+
 public class Main {
 
     public static void main(String[] args) {
