@@ -1,6 +1,8 @@
-package dependencyInversion.bad;
+package dependencyInversion.good.paymentProviderImpl;
 
-public class AssecoPaymentSystem extends PaymentProvider{
+import dependencyInversion.good.PaymentProvider;
+
+public class AssecoPaymentSystem extends PaymentProvider {
 
     @Override
     public boolean cancelCharge(int chargeId) {
@@ -10,6 +12,7 @@ public class AssecoPaymentSystem extends PaymentProvider{
 
     @Override
     public int charge(double totalPrice) {
+
         System.out.println("Asseco system charged ==> " + totalPrice);
 
         int chargeID = (int)Math.random() * 10000;
@@ -22,10 +25,8 @@ public class AssecoPaymentSystem extends PaymentProvider{
     @Override
     public String loadInvoice(int chargeId) {
 
-        //  find previous payment which payed with given id from the parameter
-        double previousPaymentInvoice = super.getChargeFromPreviousPayments(chargeId);
+         double previousPaymentInvoice = super.getChargeFromPreviousPayments(chargeId);
 
-        return String.valueOf(previousPaymentInvoice);
+         return String.valueOf(previousPaymentInvoice);
     }
-
 }

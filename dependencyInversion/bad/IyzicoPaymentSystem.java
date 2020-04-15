@@ -26,9 +26,9 @@ public class IyzicoPaymentSystem extends PaymentProvider{
     public String loadInvoice(int chargeId) {
 
         //  find previous payment which payed with given id from the parameter
-        double previousPaymentInvoince = super.getChargeFromPreviousPayments(chargeId);
+        double previousPaymentInvoice = super.getChargeFromPreviousPayments(chargeId);
 
-        return String.valueOf(previousPaymentInvoince);
+        return String.valueOf(previousPaymentInvoice);
     }
 
 }
